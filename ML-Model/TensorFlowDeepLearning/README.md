@@ -24,3 +24,28 @@ We then train the model
 ```
 new_stroke_model.fit(x_train, y_train, epochs=11)
 ```
+Finally we convert the .pb model to tflite by using the following:
+
+```
+converter = tf.lite.TFLiteConverter.from_keras_model(new_stroke_model)
+```
+
+then 
+ ```
+ converter.target_ops = [tf.lite.OpsSet.TFLITE_BUILTINS, tf.lite.OpsSet.SELECT_TF_OPS]
+converter.allow_custom_ops=True
+converter.experimental_new_converter =True
+tflite_model = converter.convert()
+```
+
+```
+converter = tf.lite.TFLiteConverter.from_keras_model(new_stroke_model)
+converter.optimizations = [tf.lite.Optimize.DEFAULT]
+```
+
+```
+ converter.target_ops = [tf.lite.OpsSet.TFLITE_BUILTINS, tf.lite.OpsSet.SELECT_TF_OPS]
+converter.allow_custom_ops=True
+converter.experimental_new_converter =True
+tflite_model = converter.convert()
+```
