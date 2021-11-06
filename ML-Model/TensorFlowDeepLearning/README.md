@@ -19,3 +19,8 @@ print('Restored model, accuracy: {:5.2f}%'.format(100 * acc))
 
 print(new_stroke_model.predict(x_test).shape)
 ```
+We then train the model
+
+```
+new_stroke_model.fit(x_train, y_train, epochs=11)
+```
