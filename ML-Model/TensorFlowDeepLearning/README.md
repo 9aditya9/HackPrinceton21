@@ -4,7 +4,7 @@
 To loead a fresh Keras model do the following: 
 
 ```
-new_stroke_model = tf.keras.models.load_model('saved_model/stroke_model')
+new_stroke_model = tf.keras.models.load_model('saved_tf_model/stroke_model')
 
 # Check its architecture
 new_stroke_model.summary()
