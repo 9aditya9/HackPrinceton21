@@ -74,7 +74,9 @@ The next step was to write the `Runefile.yml` file in the `stroke_tflite_models`
 
 Runefile.yml declares how the machine learning pipeline is configured. 
 
-One built using `rune build Runefile.yml` we can test our model that in this case will be via the command:
+Once  `Runefile.yml` is built using `rune build Runefile.yml`, we can test our model. 
+
+In this case we tried the following:
 
 ```
 rune run stroke_tflite_models.rune --raw ../../dataset/healthcare-dataset-stroke-data.csv
