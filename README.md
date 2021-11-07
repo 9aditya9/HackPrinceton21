@@ -20,7 +20,7 @@ In the ML-Folder you will find a machine learning model built to predict the pro
 The dataset we have used can be found ![here](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset). 11 Clinical features are selected to predict stroke events.
 
 
-# Stroke Prediction using TensorFlow
+#### Machine Learning Model using TensorFlow
 
 
 To load a fresh Keras model do the following: 
