@@ -24,7 +24,7 @@ We then train the model
 ```
 new_stroke_model.fit(x_train, y_train, epochs=11)
 ```
-Finally we convert the .pb model to tflite by using the following:
+Finally we convert the .pb model to tflite and save by using:
 
 ```
 converter = tf.lite.TFLiteConverter.from_keras_model(new_stroke_model)
