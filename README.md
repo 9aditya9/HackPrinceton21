@@ -189,7 +189,7 @@ this gives us the following,
 ```
 
 $ rune run stroke_tflite_models.rune --raw ../../dataset/encoded-healthcare-dataset-stroke-data.csv
-{"type_name":"f32","channel":2,"elements":[0.0],"dimensions":[1,1]}
+{"type_name":"f32","channel":2,"elements":[1.0],"dimensions":[1,1]}
 ```
 
 
