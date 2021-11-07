@@ -57,3 +57,9 @@ tflite_model = converter.convert()
 To access GitPod and be able to deploy this application, simply navigate to 
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](gitpod.io/#https://github.com/9aditya9/HackPrinceton21/tree/main/ML-Model/TensorFlowDeepLearning/stroke_tflite_model)
+
+Navigate in TensorFlowModelDeepLearning/rune and type the following:
+
+```
+unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/bin && chmod +x rune && cd /workspace/stroke_tflite_model && clear
+```
