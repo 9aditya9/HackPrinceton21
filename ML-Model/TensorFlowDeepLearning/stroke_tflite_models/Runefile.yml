@@ -1,0 +1,22 @@
+version: 1
+image: runicos/base
+pipeline:
+  raw:
+    capability: RAW
+    outputs:
+      - type: F32
+        dimensions: [1,1,10]
+  stroke:
+    model: "./stroke_model.tflite"
+    inputs:
+      - raw
+    outputs:
+      - type: F32
+        dimensions: [1,1] 
+    args:
+      labels:
+        - stroke_prob
+  serial:
+    out: SERIAL
+    inputs:
+      - stroke
