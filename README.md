@@ -34,8 +34,10 @@ See below the folder structure for a better understanding:
 
 
 ```
-
-
+--FrontEnd
+ |
+ |
+--Backend
 
 ```
 
