@@ -61,7 +61,7 @@ To access GitPod and be able to deploy this application, simply navigate to
 Navigate in TensorFlowModelDeepLearning/rune and type the following:
 
 ```
-unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/bin && chmod +x rune && cd /workspace/HackPrinceton21/ML-Model/TensorFlowDeepLearning/stroke_tflite_model && clear
+unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/bin && chmod +x rune && cd /workspace/HackPrinceton21/ML-Model/TensorFlowDeepLearning/stroke_tflite_models && clear
 ```
 
 The next step was to write the `Runefile.yml` file in the `stroke_tflite_models` directory. To do so we followed the documentation [here](https://hotg.dev/docs/reference/runefile_yml/)
