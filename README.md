@@ -27,7 +27,7 @@ Our project predicts the likelihood of a patient or a person   of having a strok
 
  ![Form](https://github.com/9aditya9/HackPrinceton21/blob/main/images/questions.png)
  
- The user will enter answer to particular categories which will then be encoded into numbers. These numbers will create the input vector for our model that will then return a probability.
+ The user will enter answer to particular categories which will then be encoded into numbers. These numbers will create the input vector for the model that will then return a probability.
 
 ### Backend
 
