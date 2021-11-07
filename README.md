@@ -1,7 +1,7 @@
 
 ## Brain Health Detection Using HOTG-AI's Rune
 
-Brain Health Detection uses Machine Learning Model deployed via HOTG' Rune to predict the likelihood of a stroke. This project was built with the goal to help professionals and hearth patients.
+Brain Health Detection uses Machine Learning Model deployed via HOTG' Rune to predict the likelihood of a stroke. This project was built with the goal to help professionals and hearth patients. 
 
 ![Brain Health Detection](https://github.com/9aditya9/HackPrinceton21/blob/main/images/codegitpod.png)
 
@@ -24,11 +24,33 @@ Our project predicts the likelihood of a patient or a person   of having a strok
 ```
 
 ### FrontEnd 
- {add your description here of how the user navigation works}
+
+ ![Form](https://github.com/9aditya9/HackPrinceton21/blob/main/images/questions.png)
+ 
+ The user will enter answer to particular categories which will then be encoded into numbers. These numbers will create the input vector for our model that will then return a probability.
 
 ### Backend
 
-The backend can be found in the ML-model folder where the machine learning models, datasets, .yml, .rune and .tflite files are stored
+The backend can be found in the Backend folder where the machine learning models, datasets, .yml, .rune and .tflite files are stored. We have used TensorFlow for this particula projects and the highest accuracy achieved was `96.23%`. 
+
+
+The model architecture used is the following:
+
+```
+def create_model():
+      nn_model = tf.keras.models.Sequential([
+           tf.keras.layers.Flatten(input_shape=(1, 10)),
+           tf.keras.layers.Dense(25, activation='relu'),
+           tf.keras.layers.Dense(25, activation='relu'),
+
+         tf.keras.layers.Dense(1, activation='sigmoid')
+       ])
+
+      nn_model.compile('adam','binary_crossentropy',metrics=['accuracy'])
+      return nn_model
+
+
+```
 
 ## Folder Structure
 
@@ -61,25 +83,18 @@ See below the folder structure for a better understanding:
  
 Backend
       .
-      ├── package.json
-      ├── public
-      │   ├── favicon.ico
-      │   ├── index.html
-      │   ├── logo192.png
-      │   ├── logo512.png
-      │   ├── manifest.json
-      │   └── robots.txt
+      ├── XGBoost_Reference
+      ├── TensorFlowDeepLearning
+      │   ├── rune
+      │   ├── saved_tf_model/
+      │   ├── stroke_tflite_models/
+      │   ├── training_1/
+      │   ├── README.md
+      │   └── stroke_tf_prediction_model_final.ipynb
       ├── README.md
-      ├── src
-      │   ├── App.css
-      │   ├── App.test.tsx
-      │   ├── App.tsx
-      │   ├── index.css
-      │   ├── index.tsx
-      │   ├── logo.svg
-      │   ├── react-app-env.d.ts
-      │   ├── reportWebVitals.ts
-      │   └── setupTests.ts
+      ├── datasets
+      │   ├── encoded-healthcare-dataset-stroke-data.csv
+      │   ├── healthcare-dataset-stroke-data.csv
       ├── tsconfig.json
       └── yarn.lock
 
