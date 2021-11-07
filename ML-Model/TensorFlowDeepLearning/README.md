@@ -70,4 +70,6 @@ Runefile.yml declares how the machine learning pipeline is configured.
 
 One built using `rune build Runefile.yml` we can test our model that in this case will be via the command:
 
-`rune run stroke_tflite_models.rune --raw <raw>`
+```
+rune run stroke_tflite_models.rune --raw ../../dataset/healthcare-dataset-stroke-data.csv
+```
