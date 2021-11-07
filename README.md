@@ -93,10 +93,9 @@ Backend
       │   └── stroke_tf_prediction_model_final.ipynb
       ├── README.md
       ├── datasets
-      │   ├── encoded-healthcare-dataset-stroke-data.csv
-      │   ├── healthcare-dataset-stroke-data.csv
-      ├── tsconfig.json
-      └── yarn.lock
+          ├── encoded-healthcare-dataset-stroke-data.csv
+          ├── healthcare-dataset-stroke-data.csv
+
 
 ```
 
