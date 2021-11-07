@@ -1,7 +1,7 @@
 
-## Stroke Prediction using Hotg.ai's Rune
+## Stroke Prediction using Hot-G's API
 
-### Why we worked on this project
+### WHy Stroke Prediction? 
 
 ## Requirments
 
