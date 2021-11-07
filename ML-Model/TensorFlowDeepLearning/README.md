@@ -61,5 +61,5 @@ To access GitPod and be able to deploy this application, simply navigate to
 Navigate in TensorFlowModelDeepLearning/rune and type the following:
 
 ```
-unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/bin && chmod +x rune && cd /workspace/HackPrinceton21/stroke_tflite_model && clear
+unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/bin && chmod +x rune && cd /workspace/HackPrinceton21//ML-Model/TensorFlowDeepLearning/stroke_tflite_model && clear
 ```
