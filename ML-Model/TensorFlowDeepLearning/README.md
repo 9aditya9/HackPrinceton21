@@ -65,3 +65,5 @@ unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/b
 ```
 
 The next step was to write the `Runefile.yml` file in the `stroke_tflite_models` directory. To do so we followed the documentation [here](https://hotg.dev/docs/reference/runefile_yml/)
+
+Runefile.yml declares how the machine learning pipeline is configured. 
