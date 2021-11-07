@@ -5,13 +5,26 @@
 
 ## Requirments
 
-## Folder Structure
+
 
 
 ### FrontEnd 
  {add your description here of how the user navigation works}
 
 ### Backend
+
+The backend can be found in the ML-model folder where the machine learning models, datasets, .yml, .rune and .tflite files are stored
+
+## Folder Structure
+
+See below the folder structure for a better understanding:
+
+
+```
+
+
+
+```
 
 
 #### Machine Learning Model using TensorFlow
