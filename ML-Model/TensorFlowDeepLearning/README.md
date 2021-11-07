@@ -79,13 +79,13 @@ Once  `Runefile.yml` is built using `rune build Runefile.yml`, we can test our m
 In this case we tried the following:
 
 ```
-rune run stroke_tflite_models.rune --raw ../../dataset/healthcare-dataset-stroke-data.csv
+rune run stroke_tflite_models.rune --raw ../../dataset/encoded-healthcare-dataset-stroke-data.csv
 ```
 
 this gives us the following,
 
 ```
 
-$ rune run stroke_tflite_models.rune --raw ../../dataset/healthcare-dataset-stroke-data.csv
+$ rune run stroke_tflite_models.rune --raw ../../dataset/encoded-healthcare-dataset-stroke-data.csv
 {"type_name":"f32","channel":2,"elements":[0.0],"dimensions":[1,1]}
 ```
