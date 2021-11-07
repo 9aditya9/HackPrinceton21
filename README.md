@@ -1,5 +1,7 @@
 
-## Stroke Prediction using Hot-G's API
+## Brain Health Detection Using HOTG-AI's Rune
+
+Brain Health Detection uses Machine Learning Model deployed via HOTG' Rune to predict the likelihood of a stroke. This project was built with the goal to help professionals and hearth patients.
 
 ### WHy Stroke Prediction? 
 
