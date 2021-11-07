@@ -1,7 +1,7 @@
 # Stroke Prediction using TensorFlow
 
 
-To loead a fresh Keras model do the following: 
+To load a fresh Keras model do the following: 
 
 ```
 new_stroke_model = tf.keras.models.load_model('saved_tf_model/stroke_model')
@@ -72,4 +72,12 @@ One built using `rune build Runefile.yml` we can test our model that in this cas
 
 ```
 rune run stroke_tflite_models.rune --raw ../../dataset/healthcare-dataset-stroke-data.csv
+```
+
+this gives us the following,
+
+```
+
+$ rune run stroke_tflite_models.rune --raw ../../dataset/healthcare-dataset-stroke-data.csv
+{"type_name":"f32","channel":2,"elements":[0.0],"dimensions":[1,1]}
 ```
