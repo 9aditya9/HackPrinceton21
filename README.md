@@ -3,7 +3,12 @@
 
 Brain Health Detection uses Machine Learning Model deployed via HOTG' Rune to predict the likelihood of a stroke. This project was built with the goal to help professionals and hearth patients.
 
-### WHy Stroke Prediction? 
+### Why Stroke Prediction? 
+
+A Stroke is a serious life threatening condition that effect 790,000 people in the United States every year[ [1](https://www.cdc.gov/stroke/facts.htm)]. Only 1 in 4 of these individual had a stroke before. During a stroke the blood supply to the brain is cut off. There are several risk factors that cause an individual to be prone to a stroke, e.g. age, smoking, high blood plessure etc...
+
+Symptoms may vary from person to person [[2](https://www.nhs.uk/conditions/stroke/)], at times symptoms may be minor that a person ignores them.  Raising awerness about this issue was one of the reason we build a system for Brain Stroke Detection.  The aim is to support hearth patient and non, as well as professional and health care institution.
+Our project predicts the likelihood of a patient or a person   of having a stroke  on the basis of 11 categories.  Once the data are entered and submitted the ML model will return the probability for the event to occour. For this project we have used Numpy, Pandas, TensorFlow, HOTG's Rune and React.
 
 ## Requirments
 
