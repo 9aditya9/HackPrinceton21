@@ -34,10 +34,52 @@ See below the folder structure for a better understanding:
 
 
 ```
---FrontEnd
- |
- |
---Backend
+ FrontEnd
+       ├── package.json
+       ├── public
+       │   ├── favicon.ico
+       │   ├── index.html
+       │   ├── logo192.png
+       │   ├── logo512.png
+       │   ├── manifest.json
+       │   └── robots.txt
+       ├── README.md
+       ├── src
+       │   ├── App.css
+       │   ├── App.test.tsx
+       │   ├── App.tsx
+       │   ├── index.css
+       │   ├── index.tsx
+       │   ├── logo.svg
+       │   ├── react-app-env.d.ts
+       │   ├── reportWebVitals.ts
+       │   └── setupTests.ts
+       ├── tsconfig.json
+       └── yarn.lock
+ 
+Backend
+      .
+      ├── package.json
+      ├── public
+      │   ├── favicon.ico
+      │   ├── index.html
+      │   ├── logo192.png
+      │   ├── logo512.png
+      │   ├── manifest.json
+      │   └── robots.txt
+      ├── README.md
+      ├── src
+      │   ├── App.css
+      │   ├── App.test.tsx
+      │   ├── App.tsx
+      │   ├── index.css
+      │   ├── index.tsx
+      │   ├── logo.svg
+      │   ├── react-app-env.d.ts
+      │   ├── reportWebVitals.ts
+      │   └── setupTests.ts
+      ├── tsconfig.json
+      └── yarn.lock
 
 ```
 
