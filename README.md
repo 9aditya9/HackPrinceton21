@@ -12,8 +12,14 @@ Our project predicts the likelihood of a patient or a person   of having a strok
 
 ## Requirments
 
-
-
+```
+- Google Colab
+- Kaggle Dataset can be found ![here](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)
+- Python 3.7
+- Numpy
+- Rune
+- GitPod - to access it simply type https://gitpod.io#/<gitrepo url>
+```
 
 ### FrontEnd 
  {add your description here of how the user navigation works}
