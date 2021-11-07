@@ -58,6 +58,12 @@ To access GitPod and be able to deploy this application, simply navigate to
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](gitpod.io/#https://github.com/9aditya9/HackPrinceton21/tree/main/ML-Model/TensorFlowDeepLearning)
 
+We suggest to go through the tutorials [here]() they were very helpful. When accessing the workspace type `rune`. If that does not work navigate to the rune folder and run:
+
+```
+unzip rune.x86_64-unknown-linux-gnu.zip && mv rune ~/.cargo/bin && cd ~/.cargo/bin && chmod +x rune
+```
+
 Navigate in TensorFlowModelDeepLearning/rune and type the following:
 
 ```
